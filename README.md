@@ -1,16 +1,19 @@
-# React + Vite
+# Full-Stack Authentication System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A secure authentication system built for the technical assessment at Exal Consortium. This project implements multiple login methods and follows security best practices.
+## Key Features
+- **Email & Password Authentication**: Standard secure login flow.
+- **Email OTP (One-Time Password)**: Passwordless login using 6-digit verification codes.
+- **Google OAuth (SSO)**: One-click sign-in with Google and automatic dashboard redirection.
+- **Dynamic Input Detection**: A single input field that intelligently handles both email and phone identifiers.
+- **Protected Routes**: A secure Dashboard accessible only to authenticated users.
 
-Currently, two official plugins are available:
+##  Tech Stack
+- **Frontend**: React (Vite), Tailwind CSS
+- **Backend/Auth**: Supabase (PostgreSQL)
+- **State Management**: React Hooks & Supabase Auth Listeners
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Local Setup
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/roja0987/exal-auth-system.git](https://github.com/roja0987/exal-auth-system.git)
